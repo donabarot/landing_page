@@ -3,63 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Quantum Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <header>
-        <h1>Dona Barot</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#extracurricular">Extracurricular</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="stars-container"></div>
+    <div class="content">
+        <section class="home">
+            <div class="name-container">
+                <h1 class="name">Dona Barot</h1>
+            </div>
+        </section>
+        <section class="about">
+            <p>As a computer science student, I spend my days navigating the cosmos of code,
+                 occasionally getting lost in black holes of bugs. With a mind as curious as a Schrödinger's cat, 
+                 I'm always ready to orbit around quirky physics jokes and cosmic mysteries!.</p>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <p>Descriptions of various projects I've worked on.</p>
+        </section>
+        <section class="extracurricular">
+            <h2>Extracurricular Activities</h2>
+            <p>Activities and achievements outside of academics.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Details on how to get in touch.</p>
+        </section>
+    </div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I am Dona, a computer science student with a passion for innovative technologies. </p>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Quantum Algorithm for Optimization</h3>
-            <p>Developed a quantum algorithm to optimize complex systems, showcasing its potential in real-world applications.</p>
-        </div>
-        <div class="project">
-            <h3>Quantum Machine Learning</h3>
-            <p>Explored the integration of quantum computing with machine learning techniques to enhance data processing and analysis.</p>
-        </div>
-    </section>
-
-    <section id="extracurricular">
-        <h2>Extracurricular Activities</h2>
-        <ul>
-            <li>Participated in Quantum Computing Workshops</li>
-            <li>Speaker at the Quantum Computing Symposium</li>
-            <li>Volunteered for Tech Community Events</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Quantum Portfolio. All rights reserved.</p>
-    </footer>
+    <script src="portfolio.js"></script>
 </body>
 </html>
