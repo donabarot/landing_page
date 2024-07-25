@@ -3,34 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quantum Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>Dona Barot's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
+    <header>
+        <div class="hamburger-menu" id="hamburger-menu">
+            &#9776;
+        </div>
+        <nav id="nav-links" class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#extracurricular">Extracurricular</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
     <div class="stars-container"></div>
     <div class="content">
-        <section class="home">
+        <section id="home" class="home">
             <div class="name-container">
                 <h1 class="name">Dona Barot</h1>
+                <p>Computer Science Student & Quantum Computing Enthusiast</p>
             </div>
         </section>
-        <section class="about">
-            <p>As a computer science student, I spend my days navigating the cosmos of code,
-                 occasionally getting lost in black holes of bugs. With a mind as curious as a Schrödinger's cat, 
-                 I'm always ready to orbit around quirky physics jokes and cosmic mysteries!.</p>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>As a computer science student, I spend my days navigating the cosmos of code, occasionally getting lost in black holes of bugs. With a mind as curious as Schrödinger's cat, I'm always ready to orbit around quirky physics jokes and cosmic mysteries!</p>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <h2>Projects</h2>
-            <p>Descriptions of various projects I've worked on.</p>
+            <p>This website marks my first step into the world of project creation, crafted with curiosity and enthusiasm. As I continue to grow and learn, I'll be adding more projects here. It's a work in progress, much like the universe itself—always expanding and full of possibilities. Stay tuned for new updates and creative endeavors. Check out my extras to see what I've been doing so far.</p>
         </section>
-        <section class="extracurricular">
+        <section id="extracurricular" class="extracurricular">
             <h2>Extracurricular Activities</h2>
-            <p>Activities and achievements outside of academics.</p>
+            <div class="tabs">
+                <div class="tab">
+                    <h3>Podcast on the Ground Reality of Canada</h3>
+                    <img src="C:\Users\barot\Downloads\WhatsApp Image 2024-07-20 at 5.21.08 AM (1).jpeg" alt="Podcast">
+                    <p>I recently participated in a podcast hosted by Kanan.co, discussing the ground realities of life in Canada as an international student.</p>
+                    <a href="https://www.youtube.com/watch?v=LL0S5G0yH2w" target="_blank">Listen to the podcast</a>
+                </div>
+                <div class="tab">
+                    <h3>Quantum Computing Enthusiast</h3>
+                    <img src="quantum-event.jpg" alt="Quantum Computing">
+                    <p>I'm a quantum computing enthusiast, having participated in an event hosted by the Perimeter Institute. Currently, I'm delving deeper into this fascinating field.</p>
+                </div>
+                <div class="tab">
+                    <h3>Headstarter Fellow</h3>
+                    <img src="headstarter.jpg" alt="Headstarter Fellow">
+                    <p>I've been selected as a Headstarter Fellow, where I'll be working on various projects, participating in mock interviews, and building valuable connections.</p>
+                </div>
+                <div class="tab">
+                    <h3>Art & Instagram</h3>
+                    <img src="art.jpg" alt="Art">
+                    <p>I also enjoy creating art. You can check out my work on my Instagram page: <a href="https://instagram.com/drawsdona" target="_blank">@drawsdona</a>.</p>
+                </div>
+            </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <h2>Contact Me</h2>
-            <p>Details on how to get in touch.</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Or reach me directly:</p>
+            <p>Email: <a href="mailto:barotdona4@gmail.com">barotdona4@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">My LinkedIn Profile</a></p>
         </section>
     </div>
 
