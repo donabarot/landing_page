@@ -1,10 +1,6 @@
 body {
     margin: 0;
-<<<<<<< HEAD
-    font-family: 'Roboto', sans-serif;
-=======
     font-family: 'Courier New', monospace;
->>>>>>> 31a250b (problem with form and links)
     background-color: #000;
     color: #f0f0f0;
     overflow-x: hidden;
@@ -15,13 +11,8 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-<<<<<<< HEAD
-    background: rgb(0, 0, 0);
-    padding: 1rem 2rem;
-=======
     background: rgba(0, 0, 0, 0.9);
     padding: 0.8rem 1.5rem;
->>>>>>> 31a250b (problem with form and links)
     z-index: 1000;
     display: flex;
     justify-content: space-between;
@@ -60,61 +51,29 @@ header {
     color: #ff9800;
 }
 
-<<<<<<< HEAD
-.stars-container {
-=======
 .stars-container,
 .bright-stars-container {
->>>>>>> 31a250b (problem with form and links)
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
-<<<<<<< HEAD
-    z-index: 2;
-}
-
-.bright-stars-container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: 2;
-=======
     z-index: 10;
->>>>>>> 31a250b (problem with form and links)
 }
 
 .star {
     position: absolute;
-<<<<<<< HEAD
-    width: 3px;
-    height: 4px;
-    background-color: #fff;
-    border-radius: 50%;
-    opacity: 1;
-=======
     width: 2.5px;
     height: 2px;
     background-color: #fff;
     border-radius: 40%;
     opacity: 0.7;
->>>>>>> 31a250b (problem with form and links)
     animation: twinkle 2s infinite ease-in-out;
 }
 
 .bright-star {
     position: absolute;
-<<<<<<< HEAD
-    width: 5px;
-    height: 6px;
-    background-color: #f2f8b2;
-    border-radius: 50%;
-=======
     width: 6px;
     height: 7px;
     background-color: #f2f8b2;
@@ -130,40 +89,22 @@ header {
         2% 35%, 
         39% 35%
     );
->>>>>>> 31a250b (problem with form and links)
     opacity: 1;
     animation: twinkle 1.5s infinite ease-in-out;
 }
 
 @keyframes twinkle {
-<<<<<<< HEAD
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.1;
-    }
-    100% {
-      opacity: 1;
-    }
-=======
     0% { opacity: 0.8; }
     50% { opacity: 0.1; }
     100% { opacity: 1; }
->>>>>>> 31a250b (problem with form and links)
 }
 
 .content {
     position: relative;
     z-index: -1;
     padding-top: 70px;
-<<<<<<< HEAD
-    background-color: #000000;
-    min-height: 10vh;
-=======
     background-color: #000;
     min-height: 100vh;
->>>>>>> 31a250b (problem with form and links)
     box-sizing: border-box;
 }
 
@@ -178,48 +119,27 @@ header {
 }
 
 .name {
-<<<<<<< HEAD
-    font-family: 'Orbitron', sans-serif;
-    font-size:8rem;
-=======
     font-family: 'Press Start 2P', cursive;
     font-size: 5.5rem;
->>>>>>> 31a250b (problem with form and links)
     margin: 0;
 }
 
 .name-container p {
-<<<<<<< HEAD
-    font-size: 1.5rem;
-=======
     font-size: 2rem;
->>>>>>> 31a250b (problem with form and links)
     margin-top: 10px;
     color: #ccc;
 }
 
 section {
-<<<<<<< HEAD
-    padding: 3rem 2rem;
-    text-align: center;
-    background-color: #16213e;
-    margin: 2rem auto;
-=======
     padding: 3rem 1rem;
     text-align: center;
     background-color: #16213e;
     margin: 1.5rem auto;
->>>>>>> 31a250b (problem with form and links)
     border-radius: 100px;
     max-width: 1000px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-<<<<<<< HEAD
-.about p, .projects p {
-    max-width: 850px;
-    margin: auto;
-=======
 .about p,
 .projects p {
     max-width: 1200px;
@@ -269,25 +189,10 @@ img {
     width: 200px; /* Set the desired width */
     height: auto; /* Auto maintains the aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners */
->>>>>>> 31a250b (problem with form and links)
 }
 
 .tabs {
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 2rem;
-}
-
-.tab {
-    background-color: #1a1a2e;
-    border-radius: 50px;
-    padding: 1rem;
-    max-width: 400px;
-    width: 100%;
-=======
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
@@ -298,28 +203,10 @@ img {
     border-radius: 8px;
     padding: 1rem;
     flex: 1 1 150px;
->>>>>>> 31a250b (problem with form and links)
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-<<<<<<< HEAD
-.tab img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-}
-
-.tab a {
-    color: #ff9800;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.tab a:hover {
-    text-decoration: underline;
-=======
 .tab i {
     font-size: 2rem;
     margin-bottom: 0.5rem;
@@ -329,31 +216,17 @@ img {
 .tab h3 {
     font-size: 1rem;
     margin: 0;
->>>>>>> 31a250b (problem with form and links)
 }
 
 .contact {
     background-color: #16213e;
-<<<<<<< HEAD
-    padding: 3rem;
-=======
     padding: 2rem;
->>>>>>> 31a250b (problem with form and links)
 }
 
 #contact-form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-<<<<<<< HEAD
-    max-width: 500px;
-    margin: auto;
-}
-
-#contact-form input, #contact-form textarea {
-    padding: 0.8rem;
-    border-radius: 20px;
-=======
     max-width: 400px;
     margin: auto;
 }
@@ -362,7 +235,6 @@ img {
 #contact-form textarea {
     padding: 0.8rem;
     border-radius: 5px;
->>>>>>> 31a250b (problem with form and links)
     border: none;
     font-size: 1rem;
 }
@@ -380,8 +252,6 @@ img {
 #contact-form button:hover {
     background-color: #e68900;
 }
-<<<<<<< HEAD
-=======
 
 .extras {
     padding: 2rem 1rem;
@@ -423,4 +293,3 @@ img {
     margin: 0.5rem 0;
     color: #ccc;
 }
->>>>>>> 31a250b (problem with form and links)
