@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dona Barot's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
@@ -25,46 +27,83 @@
     <div class="content">
         <section id="home" class="home">
             <div class="name-container">
-                <h1 class="name">Dona Barot</h1>
-                <p>Computer Science Student </p>
+                <h1 class="name">DONA BAROT</h1>
+                <p>Computer Science Student</p>
             </div>
         </section>
         <section id="about" class="about">
-            <h2>About Me</h2>
-            <p>As a sophomore year computer science student at <b>Conestoga College, Waterloo</b>, I spend my days navigating the cosmos of code, occasionally getting lost in black holes of bugs. With a mind as curious as Schrödinger's cat, I'm always ready to orbit around quirky physics jokes and cosmic mysteries!</p>
+            <h2>ABOUT ME</h2>
+            <p>As a <i>sophomore</i> year computer science student at <b>Conestoga College, Waterloo</b>, I'm currently exploring a universe of interests while anchoring myself in the world of technology. Navigating the vast landscape of coding, I'm constantly learning and adapting, occasionally caught in complex bugs and challenging algorithms. My curiosity extends beyond the code: I'm delving into quantum computing, experimenting with art mostly, painting, and immersing myself in space science literature. Chess is a strategic outlet that sharpens my problem-solving skills. Despite my diverse interests, my primary focus remains on pushing the boundaries of technology and software development. Whether it is developing innovative AI applications or solving intricate coding challenges, my journey is driven by a passion for creating impactful solutions and a fascination with the scientific wonders of the universe.</p>
         </section>
+
+        <section id="skills" class="skills">
+            <h2>SKILLS</h2>
+            <div class="tabs">
+                <h3>Technical Skills</h3>
+                <div class="tab">
+                    <i class="fab fa-python"></i> <!-- Python icon -->
+                    <h3>Python</h3>
+                </div>
+                <div class="tab">
+                    <i class="fas fa-c"></i> <!-- C icon -->
+                    <h3>C</h3>
+                </div>
+                <div class="tab">
+                    <i class="fab fa-cuttlefish"></i> <!-- C++ icon -->
+                    <h3>C++</h3>
+                </div>
+                <div class="tab">
+                    <i class="fab fa-html5"></i> <!-- Frontend icon (HTML5) -->
+                    <h3>Frontend</h3>
+                </div>
+                <div class="tab">
+                    <i class="fas fa-dna"></i> <!-- Qiskit icon -->
+                    <h3>Qiskit</h3>
+                </div>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li><i class="fas fa-lightbulb"></i> Problem-Solving: Adept at tackling complex challenges with innovative solutions.</li>
+                    <li><i class="fas fa-comments"></i> Communication: Effective in articulating ideas and collaborating with diverse teams.</li>
+                    <li><i class="fas fa-users"></i> Team Collaboration: Experienced in working within team environments to achieve collective goals.</li>
+                    <li><i class="fas fa-sync-alt"></i> Adaptability: Quick to adjust to new challenges and rapidly changing environments.</li>
+                    <li><i class="fas fa-paint-brush"></i> Creativity: Infusing imaginative approaches into problem-solving and project development.</li>
+                </ul>
+            </div>
+        </section>
+        
         <section id="projects" class="projects">
-            <h2>Projects</h2>
+            <h2>PROJECTS</h2>
             <p>This website marks my first step into the world of project creation, crafted with curiosity and enthusiasm. As I continue to grow and learn, I'll be adding more projects here. It's a work in progress, much like the universe itself—always expanding and full of possibilities. Stay tuned for new updates and creative endeavors. Check out my extras to see what I've been doing so far.</p>
         </section>
         <section id="extracurricular" class="extracurricular">
-            <h2>Extracurricular Activities</h2>
+            <h2>EXTRAS</h2>
             <div class="tabs">
                 <div class="tab">
                     <h3>Podcast on the Ground Reality of Canada</h3>
-                    <img src="https://example.com/podcast-image.jpg" alt="Podcast"> <!-- Replace with your image URL -->
+                    <img src="images/podcast.jpeg" alt="Podcast"> <!-- Replace with your image URL -->
                     <p>I recently participated in a podcast hosted by Kanan.co, discussing the ground realities of life in Canada as an international student.</p>
                     <a href="https://www.youtube.com/watch?v=LL0S5G0yH2w" target="_blank">Listen to the podcast</a>
                 </div>
                 <div class="tab">
                     <h3>Quantum Computing Enthusiast</h3>
-                    <img src="https://example.com/quantum-event.jpg" alt="Quantum Computing"> <!-- Replace with your image URL -->
+                    <img src="images/QCatPI.jpeg" alt="Quantum Computing"> <!-- Replace with your image URL -->
                     <p>I'm a quantum computing enthusiast, having participated in an event hosted by the Perimeter Institute. Currently, I'm delving deeper into this fascinating field.</p>
                 </div>
                 <div class="tab">
                     <h3>Headstarter Fellow</h3>
-                    <img src="https://example.com/headstarter.jpg" alt="Headstarter Fellow"> <!-- Replace with your image URL -->
+                    <img src="images/Headstarter.jpeg" alt="Headstarter Fellow"> <!-- Replace with your image URL -->
                     <p>I've been selected as a Headstarter Fellow, where I'll be working on various projects, participating in mock interviews, and building valuable connections.</p>
                 </div>
                 <div class="tab">
                     <h3>Art & Instagram</h3>
-                    <img src="https://example.com/art.jpg" alt="Art"> <!-- Replace with your image URL -->
+                    <img src="images/art.jpeg" alt="Art"> <!-- Replace with your image URL -->
                     <p>I also enjoy creating art. You can check out my work on my Instagram page: <a href="https://instagram.com/drawsdona" target="_blank">@drawsdona</a>.</p>
                 </div>
             </div>
         </section>
+
         <section id="contact" class="contact">
-            <h2>Contact Me</h2>
+            <h2>CONTACT ME</h2>
             <form id="contact-form">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
@@ -72,10 +111,17 @@
                 <button type="submit">Send</button>
             </form>
             <p>Or reach me directly:</p>
-            <p>Email: <a href="mailto:barotdona4@gmail.com">barotdona4@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">My LinkedIn Profile</a></p>
+                <p>Email:</p> <a href="barotdona4@gmail.com">barotdona4@gmail.com</a> 
+                <p>LinkedIn:</p> <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">My LinkedIn Profile</a> 
         </section>
     </div>
+
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("cAYZN911HphDJKT0B"); // Replace with your EmailJS user ID
+        })();
+    </script>
 
     <script src="portfolio.js"></script>
 </body>
