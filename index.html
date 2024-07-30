@@ -6,7 +6,7 @@
     <title>Dona Barot's Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
-            <a href="#extracurricular">Extracurricular</a>
+            <a href="#extracurricular">Extras</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -80,23 +80,23 @@
             <div class="tabs">
                 <div class="tab">
                     <h3>Podcast on the Ground Reality of Canada</h3>
-                    <img src="images/podcast.jpeg" alt="Podcast"> <!-- Replace with your image URL -->
+                    <img src="images/podcast.jpeg" alt="Podcast"> 
                     <p>I recently participated in a podcast hosted by Kanan.co, discussing the ground realities of life in Canada as an international student.</p>
-                    <a href="https://www.youtube.com/watch?v=LL0S5G0yH2w" target="_blank">Listen to the podcast</a>
+                    <a href="https://www.youtube.com/watch?v=TDVRQoM-5No" target="_blank">Listen to the podcast</a>
                 </div>
                 <div class="tab">
                     <h3>Quantum Computing Enthusiast</h3>
-                    <img src="images/QCatPI.jpeg" alt="Quantum Computing"> <!-- Replace with your image URL -->
+                    <img src="images/QCatPI.jpeg" alt="Quantum Computing"> 
                     <p>I'm a quantum computing enthusiast, having participated in an event hosted by the Perimeter Institute. Currently, I'm delving deeper into this fascinating field.</p>
                 </div>
                 <div class="tab">
                     <h3>Headstarter Fellow</h3>
-                    <img src="images/Headstarter.jpeg" alt="Headstarter Fellow"> <!-- Replace with your image URL -->
+                    <img src="images/Headstarter.jpeg" alt="Headstarter Fellow">
                     <p>I've been selected as a Headstarter Fellow, where I'll be working on various projects, participating in mock interviews, and building valuable connections.</p>
                 </div>
                 <div class="tab">
                     <h3>Art & Instagram</h3>
-                    <img src="images/art.jpeg" alt="Art"> <!-- Replace with your image URL -->
+                    <img src="images/art.jpeg" alt="Art"> 
                     <p>I also enjoy creating art. You can check out my work on my Instagram page: <a href="https://instagram.com/drawsdona" target="_blank">@drawsdona</a>.</p>
                 </div>
             </div>
@@ -104,7 +104,7 @@
 
         <section id="contact" class="contact">
             <h2>CONTACT ME</h2>
-            <form id="contact-form">
+            <form id="contact-form" form class="contact-form">
                 <input type="text" name="name" placeholder="Your Name" required>
                 <input type="email" name="email" placeholder="Your Email" required>
                 <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
@@ -116,11 +116,15 @@
         </section>
     </div>
 
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+        <script type="text/javascript">
         (function(){
-            emailjs.init("cAYZN911HphDJKT0B"); // Replace with your EmailJS user ID
-        })();
+        emailjs.init({
+        publicKey: "cAYZN911HphDJKT0B",
+    });
+    })();
     </script>
 
     <script src="portfolio.js"></script>

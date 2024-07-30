@@ -13,7 +13,7 @@ header {
     left: 0;
     background: rgba(0, 0, 0, 0.9);
     padding: 0.8rem 1.5rem;
-    z-index: 1000;
+    z-index: 1001;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,8 @@ header {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: 10;
+    z-index: 1001;
+    pointer-events: none;
 }
 
 .star {
@@ -101,7 +102,7 @@ header {
 
 .content {
     position: relative;
-    z-index: -1;
+    z-index: 1000;
     padding-top: 70px;
     background-color: #000;
     min-height: 100vh;
@@ -149,7 +150,7 @@ section {
 
 .skills {
     padding: 2rem 1rem;
-    background-color: #16213e; /* Consistent background */
+    background-color: #16213e;
     border-radius: 100px;
 }
 
@@ -164,8 +165,8 @@ section {
     flex-wrap: wrap;
     gap: 1rem;
     max-width: 30rem;
-    justify-content: left; /* Center-align the tabs */
-    align-items: center; /* Align items at the start */
+    justify-content: left; 
+    align-items: center; 
 }
 
 .skills .technical-skills .tab{
@@ -174,7 +175,7 @@ section {
 }
 
 .skills .soft-skills .tab {
-    flex: 1 1 150px; /* Ensure tabs are flexibly sized */
+    flex: 2 3 200px; /* Ensure tabs are flexibly sized */
     max-width: 200px; /* Set a maximum width */
 }
 
@@ -186,9 +187,9 @@ section {
 }
 
 img {
-    width: 200px; /* Set the desired width */
-    height: auto; /* Auto maintains the aspect ratio */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px; /* Optional: Add rounded corners */
 }
 
 .tabs {
@@ -199,7 +200,8 @@ img {
 }
 
 .tab {
-    background-color: #16213e;
+    background-color: #440159;
+    opacity: 1;
     border-radius: 8px;
     padding: 1rem;
     flex: 1 1 150px;
